@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    display: inline-flex;
+    width: 30%;
+    height: auto;
+   
+}
+
+input[type="text"]{
+    /* height: 2px; */
+    width: 100px;
+    border-radius: 3px;
+}
+
+input[type="text"]:focus{
+    width: 200px;
+}
+
+input[type="button"]{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    top:110%;
+    right: 170%;
+}
+
+input[type="button"]:hover{
+    padding: 15px;
+    background-color: white;
+    color:black;
+    border-radius: 3px;
+    position: relative;
+    top:110%;
+    right: 150%;
+}
+
+input[type="button"]:active{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    position: relative;
+    top:110%;
+    right: 170%;
+}

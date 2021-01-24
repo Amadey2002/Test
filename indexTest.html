@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleTest.css">
+    <title>Тест</title>
+</head>
+<body>
+<div class="difficultyA">
+    <form action="">
+        <h1>Сложность А</h1>
+       <ol>
+            <li><p>Начало PHP документа.</p></li>
+            <ul>
+                <li><p><input type="radio" name="answer1" id=""><code>&lt;PHP&gt;</code></p></li>
+                <li><p><input type="radio" name="answer1" id="true"><code>&lt;?php?&gt;</code></p></li>
+                <li><p><input type="radio" name="answer1" id=""><code>&lt; &gt;</code></p></li>
+                <li><p><input type="radio" name="answer1" id=""><code>&lt;? ?&gt;</code></p></li>
+            </ul>    
+        
+ 
+            <li><p>Какая команда используется для вывода информации?</p></li>
+            <ul>
+                <li><p><input type="radio" name="answer2" id="">printf</p></li>
+                <li><p><input type="radio" name="answer2" id="">print</p></li>
+                <li><p><input type="radio" name="answer2" id="">cout</p></li>
+                <li><p><input type="radio" name="answer2" id="true">echo</p></li>
+            </ul>    
+    
+            <li><p>Комментарии в php.</p></li>
+            <ul>
+                <li><p><input type="radio" name="answer3" id="true"><code>//комментарий</code></p></li>
+                <li><p><input type="radio" name="answer3" id=""><code>&lt;!--комментарий--! &gt;</code></p></li>
+                <li><p><input type="radio" name="answer3" id=""><code>/*комментарий*/</code></p></li>
+                <li><p><input type="radio" name="answer3" id=""><code>#комментарий</code></p></li>
+            </ul>    
+   
+            <li><p>Правильное создание переменной.</p></li>
+            <ul>
+                <li><p><input type="radio" name="answer4" id=""><code>let a;</code></p></li>
+                <li><p><input type="radio" name="answer4" id=""><code>$4count;</code></p></li>
+                <li><p><input type="radio" name="answer4" id="true"><code>$value;</code></p></li>
+                <li><p><input type="radio" name="answer4" id="">var i;</p></li>
+            </ul>    
+   
+            <li><p>Инициализация переменной.</p></li>
+            <ul>
+                <li><p><input type="radio" name="answer5" id=""><code>$a;</code></p></li>
+                <li><p><input type="radio" name="answer5" id=""><code>$a - $b;</code></p></li>
+                <li><p><input type="radio" name="answer5" id="true"><code>$a = "Hello, World";</code></p></li>
+                <li><p><input type="radio" name="answer5" id=""><code>$i &lt;= $a;</code></p></li>
+            </ul>    
+            <li><p>Чему равна переменная <code>$a</code>, если <code>$a = $b + 15</code>, где <code>$b == 40;</code></p></li>
+            <ul>
+                <li><p><input type="radio" name="answer6" id="">25</p></li>
+                <li><p><input type="radio" name="answer6" id="true">55</p></li>
+                <li><p><input type="radio" name="answer6" id="">60</p></li>
+                <li><p><input type="radio" name="answer6" id="">45</p></li>
+            </ul>    
+            <li><p>Чему равна переменная <code>$a</code>, если <code>$a = $a + $a</code>, где <code>$a == 15;</code></p></li>
+            <ul>
+                <li><p><input type="radio" name="answer7" id="">15</p></li>
+                <li><p><input type="radio" name="answer7" id="">45</p></li>
+                <li><p><input type="radio" name="answer7" id="">65</p></li>
+                <li><p><input type="radio" name="answer7" id="true">30</p></li>
+            </ul>  
+        </ol>
+    </form>
+</div>
+
+
+    <div class="difficultyB">
+    <form action="">
+        <h1>Сложность B</h1>
+        <ol>
+            <li>Инициализация переменных(выберите правильные варианты).</li>
+            <ul>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>$a = 45;</code></p></li>
+                <li><p><input type="checkbox" name="" id=""><code>$a != 15;</code></p></li>
+                <li><p><input type="checkbox" name="" id=""><code>$a == 54;</code> </p></li>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>$a++;</code></p></li>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>$a = '';</code></p></li>
+            </ul>
+
+            <li>Правильная запись условия в PHP.</li>
+            <ul>
+                <li><p><input type="checkbox" name="" id=""><code>if($a == $b) then  begin <br> тело условия <br> end;</code></p></li>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>if($a != $b){ <br> тело условия <br>}</code></p></li>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>if($a == $b) тело условия;</code></p></li>
+                <li><p><input type="checkbox" name="" id=""><code>ifelse($a &lt;= $b){ <br> тело условия <br> }</code></p></li>
+                <li><p><input type="checkbox" name="" id=""><code>($a){ <br> тело условия <br> }</code></p></li>
+            </ul>
+
+            <li>Что будет выведено на экран? <br> <code>  
+                $a = 5; <br>
+                $b = 10; <br>
+                $res = '$a меньше $b'; <br>
+                if($a &lt;= $b){ <br>
+                    echo $res;<br>
+                 };</code></li>
+            <ul>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>$res</code></p></li>
+                <li><p><input type="checkbox" name="" id="">$a</p></li>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>'$a меньше $b'</code></p></li>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>$res = '$a меньше $b';</code></p></li>
+                <li><p><input type="checkbox" name="" id="">Ничего</p></li>
+            </ul>
+
+            <li>Что будет выведено на экран? <br> <code>
+                $x = 20; <br>
+                if($x &lt; 20){ <br>
+                    $a = $x; <br>
+                    echo $a; <br>
+                }</code></li>
+            <ul>
+                <li><p><input type="checkbox" name="" id=""><code>$a</code></p></li>
+                <li><p><input type="checkbox" name="" id="">20</p></li>
+                <li><p><input type="checkbox" name="" id="trueCheck">Ничего</p></li>
+                <li><p><input type="checkbox" name="" id=""><code>$x</code></p></li>
+                <li><p><input type="checkbox" name="" id="trueCheck">Условие не выполняется</p></li>
+            </ul>
+
+            <li>Что будет выведено на экран? <br><code>
+                $x = 15; <br>
+                $y = 45;<br>
+                if($x &lt;= $y){ <br>
+                    $res = '$x меньше или равен $y'; <br>
+                    echo $res; <br>
+                }else{ <br>
+                    $res = '$x больше $y';<br>
+                    echo $res;<br>
+                };</code></li>
+            <ul>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>$res</code></p></li>
+                <li><p><input type="checkbox" name="" id=""><code>$x</code></p></li>
+                <li><p><input type="checkbox" name="" id="trueCheck"><code>$x меньше или равен $y</code></p></li>
+                <li><p><input type="checkbox" name="" id=""><code>$y</code></p></li>
+                <li><p><input type="checkbox" name="" id=""><code>$x больше $y</code></p></li>
+            </ul>
+        </ol>
+    </form>
+</div>
+<div class="difficultyB">
+    <form action="">
+        <h1>Сложность С</h1>
+        <ol>
+            <li>Напишите синтаксис условия. Должны сравниваться 2 переменные: <code>$а и $b;</code></li>
+            <input type="text" value="">
+            <li>Напишите цикл, который будет выводить переменную <code>$i</code> 5 раз;</li>
+            <input type="text" value="">
+            <li> Напишите программу, которая выводит переменную <code>$a</code> на экран;</li>
+            <input type="text" value="">
+            <li>Напишите программу, которая инициализирует переменную <code>$x</code></li>
+            <input type="text" value="">
+            <li>Напишите программу, которая выводит занчание персенных <code>$a и $b;</code></li>
+            <input type="text" value="">
+        </ol> 
+    </form>
+   
+    <p><input type="button" onclick="check()" value="Отправить"></p>
+
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
